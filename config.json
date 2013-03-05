@@ -1,0 +1,13 @@
+{
+    "name": "portfolio-cumulativeflow-chart",
+    "className": "CustomApp",
+    "server": "rally1.rallydev.com",
+    "sdk": "2.0p6",
+    "javascript": [
+        "CFDCalculator.js",
+        "App.js"
+    ],
+    "css": [
+        "app.css"
+    ]
+}
