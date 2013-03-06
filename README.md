@@ -1,4 +1,4 @@
 project-cumulativeflow-chart
 ============================
 
-Cumulative flow chart for a Rally project
+Cumulative flow chart for a Rally portfolio item
