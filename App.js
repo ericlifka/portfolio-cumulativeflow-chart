@@ -1,4 +1,4 @@
-var MY_PORTFOLIO_ITEM_ID = 5103028089;
+var MY_PORTFOLIO_ITEM_OID = 5103028089;
 
 Ext.define('CFDChartApp', {
     extend: 'Rally.app.App',
@@ -8,11 +8,10 @@ Ext.define('CFDChartApp', {
         {
             xtype: 'rallychart',
 
-            storeType: 'Rally.data.lookback.SnapshotStore',
             storeConfig: {
-                rawFind: {
+                find: {
                     '_TypeHierarchy': 'HierarchicalRequirement',
-                    '_ItemHierarchy': MY_PORTFOLIO_ITEM_ID,
+                    '_ItemHierarchy': MY_PORTFOLIO_ITEM_OID,
                     'Children': null,
                     '_ValidFrom': {
                         '$gte': '2012-04-01T00:00:00.000Z'
@@ -27,8 +26,6 @@ Ext.define('CFDChartApp', {
                 scheduleStates: ['Idea', 'Defined', 'In-Progress', 'Completed', 'Accepted', 'Released'],
                 chartAggregationType: 'storycount'
             },
-
-            chartColors: [],
 
             chartConfig: {
                 chart: {
