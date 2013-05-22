@@ -7,12 +7,7 @@ Ext.define('CFDCalculator', {
         return {
             "as": state,
             "f": function (snapshot) {
-                if (self.config.chartAggregationType === 'storycount') {
-                    return snapshot.ScheduleState === state ? 1 : 0;
-                } else {
-                    return snapshot.ScheduleState === state ? snapshot.PlanEstimate : 0;
-                }
-
+                return snapshot.ScheduleState === state ? 1 : 0;
             }
         };
     },

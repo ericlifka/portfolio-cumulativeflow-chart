@@ -24,7 +24,8 @@ Ext.define('CFDChartApp', {
             calculatorType: 'CFDCalculator',
             calculatorConfig: {
                 scheduleStates: ['Idea', 'Defined', 'In-Progress', 'Completed', 'Accepted', 'Released'],
-                chartAggregationType: 'storycount'
+                startDate: '2012-04-01T00:00:00.000Z',
+                endDate: '2013-04-01T00:00:00.000Z'
             },
 
             chartConfig: {
