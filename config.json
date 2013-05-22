@@ -2,7 +2,7 @@
     "name": "portfolio-cumulativeflow-chart",
     "className": "CFDChartApp",
     "server": "rally1.rallydev.com",
-    "sdk": "2.0p6",
+    "sdk": "x",
     "javascript": [
         "CFDCalculator.js",
         "App.js"
