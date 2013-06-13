@@ -1,13 +1,10 @@
 project-cumulativeflow-chart
 ============================
 
-Cumulative flow chart for a Rally portfolio item
+Cumulative Flow Diagram for Rally Projects.
 
+Follows project scoping setting in app settings.
 
-## Build
+Tweak TIME_PERIOD_IN_MONTHS to adjust desired time period.
 
-1. Make sure you install [rally-app-builder](https://github.com/RallyApps/rally-app-builder)
-2. Run:
-    * `$ rally-app-builder build`
-3. Copy 'build/App.html' source into Custom HTML App
-
+To use copy App.html into a custom html panel in Rally.
