@@ -109,6 +109,9 @@
                     this.chartConfig.storeConfig.find['_ValidFrom'] = {
                         "$gt": timePeriod.toISOString()
                     };
+                    this.chartConfig.chartConfig.title = {
+                        text: this.getContext().getProject().Name + " Cumulative Flow Diagram"
+                    };
 
                     this.add(this.chartConfig);
                 },
